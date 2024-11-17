@@ -1,0 +1,12 @@
+<svg width="11" height="11" viewBox="0 0 11 11" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Define a gradient with white to light gray -->
+        <linearGradient id="gradient1" x1="338.5%" y1="-951.03%" x2="493.02%" y2="100%" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="white" stop-opacity="0.9" /> <!-- White with high opacity -->
+            <stop offset="100%" stop-color="#D3D3D3" stop-opacity="0.7" /> <!-- Light gray with slight transparency -->
+        </linearGradient>
+    </defs>
+
+    <!-- Apply the gradient to the path -->
+    <path d="M5.22838 10.5958C8.11594 10.5958 10.4568 8.26208 10.4568 5.38333C10.4568 2.50457 8.11594 0.170898 5.22838 0.170898C2.34082 0.170898 0 2.50457 0 5.38333C0 8.26208 2.34082 10.5958 5.22838 10.5958Z" fill="url(#gradient1)" />
+</svg>
