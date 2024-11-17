@@ -13,13 +13,17 @@ function updateSlides() {
         slide.classList.toggle('active', index === currentSlideIndex);
     });
 
-    // Update dot colors
+   
     dots.forEach((dot, index) => {
-        dot.style.backgroundColor = index === currentSlideIndex ? '#A3CFFF' : '#5B9BF3';
+        if (index === currentSlideIndex) {
+            dot.style.backgroundColor = '#A3CFFF';
+        } else {
+            dot.style.backgroundColor = '#5B9BF3';
+        }
     });
 }
 
-// Arrow navigation
+
 leftArrow.addEventListener('click', () => {
     currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
     updateSlides();
@@ -30,7 +34,7 @@ rightArrow.addEventListener('click', () => {
     updateSlides();
 });
 
-// Dot navigation
+
 dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
         currentSlideIndex = index;
@@ -38,5 +42,5 @@ dots.forEach((dot, index) => {
     });
 });
 
-// Initialize the slider
+
 updateSlides();

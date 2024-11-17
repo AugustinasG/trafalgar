@@ -350,7 +350,7 @@ body {
 }
 
 .containerSlide {
-  display: none; /* Hide all slides by default */
+  display: none; 
 }
 
 .bgRightImg {
@@ -486,7 +486,7 @@ body {
 }
 
 .dot {
-  display: inline-block; /* or use block if preferred */
+  display: inline-block; 
   cursor: pointer;
   height: 15px;
   width: 15px;
