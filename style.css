@@ -6,6 +6,8 @@
 
 body {
   font-family: "Muli";
+  height:100vh;
+
 }
 
 .headerContainer {
@@ -595,6 +597,7 @@ body {
   background-position: 1500px 40px;
   background-repeat: no-repeat;
   height: 550px;
+
 }
 
 .footerContainer {
