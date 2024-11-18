@@ -615,17 +615,34 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  color: white;
+  color:white;
+  font-size:18px;
+
+}
+.footerColumn ul {
+
+  list-style:none;
 }
 
-.footerColumn h3 {
-  font-size: 20px;
+.footerColumn li {
+
+line-height: 2;
+
+}
+.footerLiFirst {
+
+font-size:20px;
+font-weight:700;
+line-height:3.3;
+
 }
 
-.footerColumn p {
-  font-size: 18px;
-  font-weight: 300;
-}
+.footerColumn a {
+  color:white;
+  text-decoration:none;
+  list-style:none;
+  
+  }
 
 .footerColumn .footerSvgContainer {
   display: flex;
