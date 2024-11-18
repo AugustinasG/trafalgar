@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   font-family: "Muli";
-  height:100vh;
+  height: 100%;
+  overflow-x: hidden; 
 
+ 
 }
 
 .headerContainer {
@@ -99,7 +102,6 @@ body {
 .servMain {
   height: 1100px;
   margin-top: 130px;
-  /* margin-right:230px; */
   padding-right: 230px;
   display: flex;
   align-items: center;
@@ -597,11 +599,14 @@ body {
   background-position: 1500px 40px;
   background-repeat: no-repeat;
   height: 550px;
+  
+  
+
+
 
 }
 
 .footerContainer {
-  height: 432px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -609,6 +614,8 @@ body {
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
   gap: 130px;
   position: relative;
+  height: 55vh;
+ 
 }
 
 .footerColumn {
